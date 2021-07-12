@@ -15,3 +15,12 @@ To give your device a public URL, access the device page on the [balenaCloud das
 [gettingStarted-link]:http://balena.io/docs/learn/getting-started/
 [balena-cli]:https://www.balena.io/docs/reference/cli/
 [balena-dashboard]:https://dashboard.balena-cloud.com/
+
+
+We also had to disable tty getty serial on ttyS0 for this to work.
+look at:
+https://forums.balena.io/t/serial-interface-development-image/6099
+https://github.com/balena-os/meta-balena/issues/1387
+
+also look at this 5v to 3.3v serial "converter":
+https://www.instructables.com/Pi-Cubed-How-to-connect-a-33V-Raspberry-Pi-to-a-5V/
