@@ -32,3 +32,4 @@ ENV UDEV=1
 
 # server.js will run when container starts up on the device
 CMD ["/usr/bin/screen", "-dmS", "socat-screen", "bash", "-c", "'sleep 300; /usr/src/app/socat.sh; exec bash'"]
+#CMD ["sh"]
