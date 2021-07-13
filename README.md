@@ -22,5 +22,13 @@ look at:
 https://forums.balena.io/t/serial-interface-development-image/6099
 https://github.com/balena-os/meta-balena/issues/1387
 
+listing serial ports and using screen with serial:
+https://www.cyberciti.biz/faq/unix-linux-apple-osx-bsd-screen-set-baud-rate/
+
+alternatively:
+https://tio.github.io/
+https://learn.sparkfun.com/tutorials/terminal-basics/all#command-line-windows-mac-linux
+
 also look at this 5v to 3.3v serial "converter":
 https://www.instructables.com/Pi-Cubed-How-to-connect-a-33V-Raspberry-Pi-to-a-5V/
+
