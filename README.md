@@ -17,6 +17,9 @@ To give your device a public URL, access the device page on the [balenaCloud das
 [balena-dashboard]:https://dashboard.balena-cloud.com/
 
 
+We based this on this socat command:
+https://superuser.com/questions/403331/how-do-i-link-two-serial-ports-in-gnu-linux
+
 We also had to disable tty getty serial on ttyS0 for this to work.
 look at:
 https://forums.balena.io/t/serial-interface-development-image/6099
@@ -31,4 +34,9 @@ https://learn.sparkfun.com/tutorials/terminal-basics/all#command-line-windows-ma
 
 also look at this 5v to 3.3v serial "converter":
 https://www.instructables.com/Pi-Cubed-How-to-connect-a-33V-Raspberry-Pi-to-a-5V/
+
+
+For the LED control, we used this tutorial:
+https://raspberrypi-aa.github.io/session2/bash.html
+
 
