@@ -39,4 +39,7 @@ https://www.instructables.com/Pi-Cubed-How-to-connect-a-33V-Raspberry-Pi-to-a-5V
 For the LED control, we used this tutorial:
 https://raspberrypi-aa.github.io/session2/bash.html
 
+And for checking if a program is running:
+https://www.cyberciti.biz/faq/bash-check-if-process-is-running-or-notonlinuxunix/
+
 
