@@ -1,5 +1,8 @@
 #!/bin/bash
 set -xv
+
+./check_serial_tunnel.sh &
+
 while true
 do
   echo "Trying to run socat"
